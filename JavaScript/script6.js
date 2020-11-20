@@ -1,6 +1,6 @@
 "use strict";
 
-if (4 == 5 ) {
+if (4 == 5) {
     console.log('ok!');
 } else {
     console.log("not OK!");
@@ -21,7 +21,7 @@ if (4 == 5 ) {
 const num = 48;
 
 switch (num) {
-    case 49: 
+    case 49:
         console.log('Incorrect');
         break;
     case 100:

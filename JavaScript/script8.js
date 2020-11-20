@@ -2,10 +2,10 @@
 
 let num = 20;
 
-function showFirstMessage (text) {
+function showFirstMessage(text) {
     console.log(text);
     let num = 10;
-    console.log(num);       // локальная паременная 
+    console.log(num); // локальная паременная 
 }
 
 showFirstMessage("Hello world!");
@@ -26,20 +26,22 @@ function ret() {
 const anotherNum = ret();
 console.log(anotherNum);
 
-let logger = function(){
+let logger = function () {
     console.log("Hello");
 };
 
 logger();
 
-const calc = (a, b) => { return a + b };
+const calc = (a, b) => {
+    return a + b
+};
 
 const calc1 = (a, b) => a + b;
 
 
-const calcs = ( a, b ) => {
+const calcs = (a, b) => {
     console.log('1');
     return a + b;
 };
 
-console.log( calcs(3, 4));
+console.log(calcs(3, 4));
