@@ -18,7 +18,7 @@ const circles = document.getElementsByClassName('circle');
 console.log(circles);
 
 
-const hearts = document.querySelectorAll('.heart')
+const hearts = document.querySelectorAll('.heart');
 
 
 
