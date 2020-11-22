@@ -25,3 +25,4 @@ const hearts = document.querySelectorAll('.heart');
 hearts.forEach(item => {
     console.log(item);
 });
+
